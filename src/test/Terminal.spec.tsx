@@ -47,10 +47,10 @@ describe("Terminal Component", () => {
       );
     });
 
-    it("should return 'visitor' when user type 'whoami' cmd", async () => {
+    it("should return 'goust' when user type 'whoami' cmd", async () => {
       await user.type(terminalInput, "whoami{enter}");
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "visitor"
+        "goust"
       );
     });
 
