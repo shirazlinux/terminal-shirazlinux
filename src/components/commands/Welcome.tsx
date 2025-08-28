@@ -36,8 +36,8 @@ const Welcome: React.FC = () => {
           <Seperator>----</Seperator>
           <div>
             Explore our open-source ecosystem at {" "}
-            <Link href="https://github.com/shirazlinux">
-              ShirazLinux GitHub
+            <Link href="https://codeberg.org/shirazlinux/Terminal-Website">
+              ShirazLinux codeberg
             </Link>
             .
           </div>
